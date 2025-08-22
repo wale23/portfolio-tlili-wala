@@ -106,9 +106,7 @@ export function Experience() {
                         <span>MY EXPERIENCE</span>
                     </div>
                     <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-6">
-                        I've worked with some
-                        <br/>
-                        amazing companies
+                        Companies and projects
                     </h2>
                     <div className={`w-24 h-px bg-gradient-to-r from-primary to-transparent transition-all duration-1000 ease-out ${
                         isVisible ? 'opacity-100 scale-x-100' : 'opacity-0 scale-x-0'

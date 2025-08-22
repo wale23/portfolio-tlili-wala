@@ -115,14 +115,6 @@ export function Projects() {
             <div className="max-w-6xl mx-auto relative z-10">
                 {/* Section header */}
                 <div className="text-center mb-16">
-                    <div
-                        className={`inline-flex items-center gap-2 text-primary text-sm font-medium mb-4 transition-all duration-1000 ease-out ${
-                            isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'
-                        }`} style={{transitionDelay: '100ms'}}>
-                        <span>/</span>
-                        <span>MY PORTFOLIO</span>
-                    </div>
-
                     <h2 className={`text-3xl sm:text-4xl font-serif font-normal mb-4 text-foreground transition-all duration-1000 ease-out ${
                         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
                     }`} style={{transitionDelay: '200ms'}}>
