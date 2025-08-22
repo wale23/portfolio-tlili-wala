@@ -11,7 +11,7 @@ export function Projects() {
         {
             title: "MenuPro Admin Dashboard",
             description: "Developed the central admin dashboard for MenuPro, managing restaurants, users, user moderation, restaurant moderation and analytics. Focused on building responsive, user-centric interfaces that streamline operations for the platform's administration team.",
-            technologies: ["ReactJS", "TypeScript", "RTK Query", "Bootstrap", "Material UI"],
+            technologies: ["ReactJS", "TypeScript","Vite", "RTK Query", "Bootstrap", "Material UI"],
             category: "Web Application",
             image: "/Menupro-RestoAdmin.png",
 
@@ -19,21 +19,21 @@ export function Projects() {
         {
             title: "MenuPro Restaurant Admin",
             description: "Built a partner-facing web app allowing restaurant owners to manage their profiles, track reservations, view reviews, and handle tables and floors efficiently. Emphasis on usability and real-time data for a seamless partner experience.",
-            technologies: ["ReactJS", "TypeScript", "RTK Query", "Bootstrap", "Material UI"],
+            technologies: ["ReactJS", "TypeScript","Vite", "RTK Query", "Bootstrap", "Material UI"],
             category: "Web Application",
             image: "/img4.png",
         },
         {
             title: "Invoice Management System",
             description: "Built an internal application for managing invoices for partners, streamlining billing and tracking processes. Focused on data accuracy, reporting, and administrative efficiency.",
-            technologies: ["ReactJS", "TypeScript", "Redux Toolkit", "Bootstap"],
+            technologies: ["ReactJS", "TypeScript", "Webpack" ,  "Redux Toolkit", "Bootstap"],
             category: "Web Application",
             image: "/Facture-Admin.png",
         },
         {
             title: "GymPro Desktop App",
             description: "Created a desktop fitness application using React and Electron, designed to work offline with partial synchronization. Integrated with ZKTeco machines for real-time tracking and monitoring, providing a robust solution for gym management.",
-            technologies: ["ReactJS", "Electron", "Redux Toolkit", "Ant Design", "ZKTeco SDK", "SQLite"],
+            technologies: ["ReactJS", "Electron", "Parcel", "Redux Toolkit", "Ant Design", "ZKTeco SDK", "SQLite"],
             category: "Desktop Application",
             image: "/Dashboard.png",
         },
