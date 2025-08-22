@@ -18,10 +18,13 @@ const playfairDisplay = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: "Wala Tlili - Développeuse Front-End ReactJS",
-  description:
-    "Portfolio de Wala Tlili, développeuse front-end spécialisée en ReactJS avec une expérience dans le développement d'applications SaaS modernes.",
+  title: "Wala Tlili | Software Developer",
+    description:
+        "Portfolio of Wala Tlili, a front-end developer specialized in ReactJS with experience building modern SaaS applications.",
   generator: "v0.app",
+    icons: {
+        icon: "/logo.svg",
+    },
 }
 
 export default function RootLayout({
